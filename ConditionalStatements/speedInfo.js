@@ -1,5 +1,5 @@
 function speedInfo(input){
-    speed = Number(input[0]);
+    let speed = Number(input[0]);
 
     if (speed <= 10) {
         console.log("slow");
